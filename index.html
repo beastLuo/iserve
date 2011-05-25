@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+
+  <title>kmi/iserve @ GitHub</title>
+
+  <style type="text/css">
+    body {
+      margin-top: 1.0em;
+      background-color: #2f81c7;
+      font-family: Helvetica, Arial, FreeSans, san-serif;
+      color: #ffffff;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+    h1 { font-size: 3.8em; color: #d07e38; margin-bottom: 3px; }
+    h1 .small { font-size: 0.4em; }
+    h1 a { text-decoration: none }
+    h2 { font-size: 1.5em; color: #d07e38; }
+    h3 { text-align: center; color: #d07e38; }
+    a { color: #d07e38; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+    pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+  </style>
+</head>
+
+<body>
+  <a href="http://github.com/kmi/iserve"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+  <div id="container">
+
+    <div class="download">
+      <a href="http://github.com/kmi/iserve/zipball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+      <a href="http://github.com/kmi/iserve/tarball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    </div>
+
+    <h1><a href="http://github.com/kmi/iserve">iServe</a>
+      <span class="small">by <a href="http://github.com/kmi">kmi</a></span></h1>
+
+    <div class="description">
+      iServe is what we refer to as service warehouse which unifies service 
+publication, analysis, and discovery through the use of lightweight semantics 
+as well as advanced discovery and analytic capabilities. iServe provides the
+typical features of service registries and additional functionality that 
+exploits service descriptions, service annotations and further data gathered and
+derived from the analysis of these descriptions, data crawled from the Web, 
+periodic monitoring and user activities. 
+
+iServe builds upon lessons learnt from research and development on the Web and 
+on service discovery algorithms to provide a generic semantic service registry 
+able to support advanced discovery over both Web APIs and WSDL services 
+described using heterogeneous formalisms. 
+    </div>
+
+    <p>Accessing iServe
+================
+Applications and users can interact with iServe through a number of mechanisms:
+- Linked Data
+- RESTful API
+- Graphical User Interface
+
+Linked Data
+-----------
+Once published in iServe, the service descriptions are exposed following Linked
+Data principles. In particular, each service description is given a unique and 
+resolvable HTTP URI exposing service descriptions in both HTML and RDF through
+content negotiation. Additionally, the entire registry can be queries through a 
+SPARQL endpoint. 
+
+RESTful API
+-----------
+Programmatic access to iServe's functionality is provided through a RESTful API.
+The API allows applications to create, read, update, and delete services, as well
+as it allows accessing the discovery algorithms implemented.
+
+Graphical User Interface
+------------------------
+iServe includes a GWT Web-based user interface giving access to the content of 
+the service registry and allowing users to submit new services, search for them,
+add ratings and comments, etc 
+
+Service Languages and Ontologies Supported
+==========================================
+Support to different formalisms is provided through an extensible set of import 
+plugins which transform these into the core conceptual model used by iServe.
+In particular iServe currently supports:
+- WSDL v1 and v2
+- SAWSDL
+- OWL-S v1.1
+- MicroWSMO
+- WSMO-Lite
+
+Discovery Algorithms Implemented
+================================
+iServe provides an extensible plugin-based discovery engine which allows one to
+introduce new algorithms easily and combine them with existing ones on the fly.
+Discovery results are exposed using diverse serialisation formats (e.g., ATOM, 
+JSON) and can be combined through simple set operations like Union, Intersection,
+and Substraction.
+
+Currently iServe provides the following discovery plugins:
+- Functional Classifications with RDFS reasoning
+- SKOS categorisations 
+- Inputs and Outputs with RDFS reasoning
+- Keywords similarity 
+</p><h2>Authors</h2>
+<p>Dong LIU (liu.dong66@gmail.com)<br/>Carlos Pedrinaci (c.pedrinaci@open.ac.uk)<br/>Jacek Kopecky (j.kopecky@open.ac.uk)<br/><br/>      </p>
+<h2>Contact</h2>
+<p>Carlos Pedrinaci<br/>Knowledge Media Institute, The Open University (c.pedrinaci@open.ac.uk)<br/>      </p>
+
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/kmi/iserve/zipball/master">zip</a> or
+      <a href="http://github.com/kmi/iserve/tarball/master">tar</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/kmi/iserve</pre>
+    </p>
+
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/kmi/iserve">kmi/iserve</a>
+    </div>
+
+  </div>
+
+  
+</body>
+</html>
