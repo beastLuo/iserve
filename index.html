@@ -46,75 +46,95 @@
       <span class="small">by <a href="http://github.com/kmi">kmi</a></span></h1>
 
     <div class="description">
+    <p>
       iServe is what we refer to as service warehouse which unifies service 
 publication, analysis, and discovery through the use of lightweight semantics 
 as well as advanced discovery and analytic capabilities. iServe provides the
 typical features of service registries and additional functionality that 
 exploits service descriptions, service annotations and further data gathered and
 derived from the analysis of these descriptions, data crawled from the Web, 
-periodic monitoring and user activities. 
+periodic monitoring and user activities. </p>
 
+<p>
 iServe builds upon lessons learnt from research and development on the Web and 
 on service discovery algorithms to provide a generic semantic service registry 
 able to support advanced discovery over both Web APIs and WSDL services 
 described using heterogeneous formalisms. 
+</p>
     </div>
 
-    <p>Accessing iServe
-================
-Applications and users can interact with iServe through a number of mechanisms:
-- Linked Data
-- RESTful API
-- Graphical User Interface
+    <h2>Accessing iServe</h2>
 
-Linked Data
------------
-Once published in iServe, the service descriptions are exposed following Linked
+Applications and users can interact with iServe through a number of mechanisms:
+<ul>
+    <li>Linked Data</li>
+    <li>RESTful API</li>
+    <li>Graphical User Interface</li>
+</ul>
+
+<h4>Linked Data</h4>
+<p> 
+Once published in iServe, the service descriptions are exposed following Linked 
 Data principles. In particular, each service description is given a unique and 
-resolvable HTTP URI exposing service descriptions in both HTML and RDF through
+resolvable HTTP URI exposing service descriptions in both HTML and RDF through 
 content negotiation. Additionally, the entire registry can be queries through a 
 SPARQL endpoint. 
+</p>
 
-RESTful API
------------
+<h4>RESTful API</h4>
+<p>
 Programmatic access to iServe's functionality is provided through a RESTful API.
 The API allows applications to create, read, update, and delete services, as well
 as it allows accessing the discovery algorithms implemented.
+</p>
 
-Graphical User Interface
-------------------------
+<h4>Graphical User Interface</h4>
+<p>
 iServe includes a GWT Web-based user interface giving access to the content of 
 the service registry and allowing users to submit new services, search for them,
-add ratings and comments, etc 
+add ratings and comments, etc.
+</p>
 
-Service Languages and Ontologies Supported
-==========================================
+<h2>Service Languages and Ontologies Supported</h2>
 Support to different formalisms is provided through an extensible set of import 
 plugins which transform these into the core conceptual model used by iServe.
 In particular iServe currently supports:
-- WSDL v1 and v2
-- SAWSDL
-- OWL-S v1.1
-- MicroWSMO
-- WSMO-Lite
+<ul>
+    <li>WSDL v1 and v2</li>
+    <li>SAWSDL</li>
+    <li>OWL-S v1.1</li>
+    <li>MicroWSMO</li>
+    <li>WSMO-Lite</li>
+</ul>
 
-Discovery Algorithms Implemented
-================================
+<h2>Discovery Algorithms Implemented</h2>
+<p>
 iServe provides an extensible plugin-based discovery engine which allows one to
 introduce new algorithms easily and combine them with existing ones on the fly.
 Discovery results are exposed using diverse serialisation formats (e.g., ATOM, 
 JSON) and can be combined through simple set operations like Union, Intersection,
 and Substraction.
-
+</p>
+<p>
 Currently iServe provides the following discovery plugins:
-- Functional Classifications with RDFS reasoning
-- SKOS categorisations 
-- Inputs and Outputs with RDFS reasoning
-- Keywords similarity 
+<ul>
+	<li>Functional Classifications with RDFS reasoning</li>
+	<li>SKOS categorisations </li>
+	<li>Inputs and Outputs with RDFS reasoning</li>
+	<li>Keywords similarity </li>
+</ul>
+</p>
+
 </p><h2>Authors</h2>
-<p>Dong LIU (liu.dong66@gmail.com)<br/>Carlos Pedrinaci (c.pedrinaci@open.ac.uk)<br/>Jacek Kopecky (j.kopecky@open.ac.uk)<br/><br/>      </p>
+<p>Dong LIU (liu.dong66@gmail.com)
+<br/>Carlos Pedrinaci (c.pedrinaci@open.ac.uk)
+<br/>Jacek Kopecky (j.kopecky@open.ac.uk)
+<br/>
+<br/>      </p>
 <h2>Contact</h2>
-<p>Carlos Pedrinaci<br/>Knowledge Media Institute, The Open University (c.pedrinaci@open.ac.uk)<br/>      </p>
+<p>Carlos Pedrinaci
+<br/>Knowledge Media Institute, The Open University (c.pedrinaci@open.ac.uk)
+<br/>      </p>
 
 
     <h2>Download</h2>
